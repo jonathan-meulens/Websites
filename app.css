@@ -1,0 +1,625 @@
+/* We can use the * selector to target main things we want to be same in our website */
+* {  margin: 0;
+    padding: 0;
+    font-family: "Wix Madefor Display", sans-serif;
+
+
+}
+/*THESE ARE ALL THE PAGES OF THE WEBISTE*/
+section {
+    border: solid;
+    height: 100vh;
+
+}
+
+html{ 
+        scroll-behavior: smooth;
+}
+
+
+/*.wix-madefor-display-1985 {*/
+/*  font-family: "Wix Madefor Display", sans-serif;*/
+/*  font-optical-sizing: auto;*/
+/*  font-style: normal;*/
+/*}*/
+
+
+/*---------------------------------------------------PAGE 1--------------------------------------------*/
+
+        /*-----------------------------------Navbar-----------------------------*/
+
+/*BACKGROUND IMAGE*/
+#Home {
+    background-image: url("Images/Background.jpg");
+    background-size: cover; 
+}
+
+/*This is the WHOLE navbar object --> LOGO + NAVBAR --> flebox with the 2 components */
+.navbar-object{
+list-style-type: none;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+flex-direction: row;
+}
+
+/*This is the WHOLE navbar */
+.navbar{ 
+    display: flex; 
+    flex-direction: row;
+    align-items: baseline;
+    width: 80%;
+    justify-content: space-evenly;
+    background-color: white; 
+}
+
+/* THIS IS THE QUICKSTART LOGO */
+.left-navbar {
+    display: flex;
+    color: white;
+    background-color: #3C1E59;
+    background-size: cover; 
+    width:20%;
+
+}   
+
+/* THIS IS THE QUICKSTART LOGO */
+.logo {
+    margin: auto;
+    color: white;
+}
+
+
+/* THIS IS THE LIST OF ALL THE MID SECTION ITEMS OF THE NAVBAR*/
+.navbar-object.mid-navbar.center-buttons-navbar {
+list-style-type: none;
+padding: 0;
+margin-right: 0;
+}
+
+
+/* THESE ARE ALL ITEMS WITHIN THE LIST OF THE NAVBAR*/
+.center-buttons-navbar li {
+display: inline-block;
+margin-top: 20px;
+}
+
+/* THESE ARE ALL THE BUTTONS IN THE MID SECTION OF THE NAVBAR */
+.center-buttons-navbar li button {
+    background-color: white ;
+    width: fit-content; 
+    height: 20px; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition-duration: 0.5s;
+}
+/*Remove the underline and blue color of the link on the home button*/
+.center-buttons-navbar li button  a { 
+    color: inherit; 
+    text-decoration: none;
+}
+
+.center-buttons-navbar li button  a:visited { 
+    color: inherit; 
+    text-decoration: none;
+}
+
+
+/*THIS IS THE NAVBAR OF THE SIGN UP*/
+.right-navbar button {
+    background-color: white;
+    width: fit-content; 
+    height: 20px; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition-duration: 0.5s;
+}
+ /*Remove the underline and blue color of the link on the home button*/
+ .right-navbar button  a { 
+    color: inherit; 
+    text-decoration: none;
+}
+
+.right-navbar button  a:visited { 
+    color: inherit; 
+    text-decoration: none;
+}
+
+/*------------------------------------------END Navbar--------------------------------------------------*/
+
+
+
+/*------------------------------------------Center Homepage--------------------------------------------------*/
+
+
+/*THESE IS THE HOME-OBJECT (TITLE , SUBTITLE, HOME-BUTTON)*/
+
+
+/*THESE IS THE LIST CONTAINING THE HOME-OBJECTS (TITLE , SUBTITLE, HOME-BUTTON)*/
+
+.home-copy{
+display: flex;
+flex-direction: column;
+color: white;
+padding-top: 30px;
+align-items: center;
+justify-content: space-evenly;
+height: 30vh;
+}
+
+.home div {
+    margin: 10px
+}
+
+.title li {
+position: absolute;
+margin-left: 20px;
+}
+
+.home-copy h1{
+    font-size: 40px;
+    }
+    
+
+/*THIS IS THE HOME-BUTTON*/
+.get-started-button-first-page{
+    background: #3C1E59;
+    border-radius: 999px;
+    box-shadow: #3C1E59 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    width: 300px;
+    height: 50px;
+    border: 0;
+    }
+    /*Remove the underline and blue color of the link on the home button*/
+    .get-started-button-first-page a { 
+        color: inherit; 
+        text-decoration: none;
+    }
+
+
+    .get-started-button-first-page a:visited { 
+        color: inherit; 
+        text-decoration: none;}
+   
+
+
+          /*---------------------------------End Center Home Page-----------------------*/
+
+/*---------------------------------------------------------END of PAGE 1-------------------------------------------------*/
+
+
+/*------------------------------------------END--------------------------------------------------*/
+
+
+/*---------------------------------------------------------START of PAGE 2-------------------------------------------------*/
+
+/*This the WHOLE PAGE*/
+#About-us {  background-color: #6A4C93;
+             display: flex;
+             flex-direction: column;
+    
+}
+
+/*This the WHOLE UPPER HALF SECTION of the page*/
+.upper-about-us-section{
+            background: #6A4C93;
+}
+
+/*This is a flexbox that contains the copy in the UPPER HALF of the page*/
+.about-us-copy {   display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+
+
+
+/*This the the copy within the flex box of the UPPER HALF*/
+.about-us-copy div {   color: white;
+               padding: 50px
+       }
+
+.about-us-copy h1 { 
+               font-size: 30px;
+}
+
+
+/*This is a flexbox that contains the copy in the LOWER HALF of the page*/
+.lower-about-us-section-flexbox {
+            background: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 60vh; 
+
+       }
+
+/*This the the copy within the flex box of the UPPER HALF*/
+.button-flexbox {
+         display: flex;
+         margin: auto;
+         justify-content: center;
+      
+        
+
+
+}
+
+/*This the button of the second page*/
+.get-started-button.second-page {
+    background: #3C1E59;
+    border-radius: 999px;
+    box-shadow: #3C1E59 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    width: 300px;
+    border: 0;
+    }
+
+    /*Remove the underline and blue color of the link on the home button*/
+    .get-started-button.second-page a { 
+        color: inherit; 
+        text-decoration: none;
+    }
+
+    .get-started-button.second-page a:visited { 
+        color: inherit; 
+        text-decoration: none;
+    }
+
+/*This the the  flexbox that contains the 2 figures of copy (100+ and copy section)*/
+.copy-flexbox { display: flex;
+        flex-direction: row;
+        gap: 20%;
+        background: black;
+        justify-content: center;
+        margin: auto;
+       
+
+}
+
+/*This the the copy within the copy-flexbox*/
+.copy-autofill-block {
+                display: flex;
+                flex-direction: column;
+                background-color: #F2F2F2;
+                border-radius: 50px 50px 50px 0px;
+                width: 450px;
+                height: 320px;
+                padding-left: 10px;
+                padding-right: 10px;
+                                
+}
+
+
+/*This the the 100+ sign within the copy-flexbox*/
+.a-hundred-plus-flexbox{
+                display: flex;
+                background-color: #F2F2F2;
+                border-radius: 50px 50px 50px 0px;
+                width: 450px;
+                height: 320px;
+
+}
+
+/*These are the letters of the 100+ sign*/
+.a-hundred-plus-flexbox h1{
+                 font-size: 100px;
+                 font-weight: 900;
+                 color: #6A4C93;
+                 margin: auto;
+}
+
+/*These are the letters of the copy sign*/
+.copy-autofill-block h3 {
+                  font-size: smaller;
+                  color: rgb(32, 31, 31);
+                  margin: auto;
+                  
+}
+
+/*---------------------------------------------------------END of PAGE 2-------------------------------------------------*/
+
+
+/*---------------------------------------------------------START of PAGE 3-------------------------------------------------*/
+
+/* This is the WHOLE page*/ 
+#Prices {
+    background-color:#523361;
+}
+
+
+#Prices ul {
+         list-style-type: none;
+         margin: auto;
+         
+
+}
+
+/*Spacing between the sentences in the priceboxes*/ 
+#Prices li { 
+            padding: 10px;
+            
+
+}
+
+/* Targeting the 3 priceboxes*/ 
+.pricing-flexbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 5%;
+        margin-top: 10%;
+        width: 100%;
+        height: 70vh;
+
+
+}
+
+
+
+/*This is the flexbox containing the free-price box elements */
+.free-range {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap; 
+      height: 70%;
+      width: 300px;
+      color: #666666;
+      background-color: white;
+      border: solid;
+      border-width: 15px;
+      border-radius: 20px;
+      border-color: black;
+      box-shadow: 10px 35px 4px #1d1c1c;
+      margin: auto; 
+      
+    
+
+
+}
+
+/*This the list of checkbox-elements in the Free-range flexbox */
+.free-elements-flexbox{ 
+                    display: flex;
+                    flex-direction: row;
+                    align-items: auto;
+                   
+
+
+}
+
+/*This the list of checkbox-elements in the Price-range flexbox */
+.paid-elements-flexbox{ 
+    display: flex;
+    flex-direction: row;
+    align-items: auto;
+    
+
+
+}
+
+/*These are ALL the checkbox-elements */
+.fa-check-circle{ 
+                color: rgb(37, 36, 36);
+
+}
+
+/*This is the flexbox containing the paid-price box elements */
+.medium-range { display: flex;
+        flex-direction: column;
+        height: 70%;
+        width: 300px;
+        color: #666666;
+        background-color: white;
+        border: solid;
+        border-width: 15px;
+        border-radius: 20px;
+        border-color: black;
+        box-shadow: 10px 35px 4px #1d1c1c;
+        margin: auto; 
+
+
+
+}
+
+/* All the uppercase lettering of the priceboxes */ 
+.uppercase { 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 70px;
+
+}
+
+/* We will keep this out for NOW! , This is the Premium Price Box
+.wide-range { display: flex;
+      flex-direction: column;
+      width: 15%;
+      background-color: white;
+
+
+}
+*/
+
+/*These are the sign-up buttons */
+#Prices li button { 
+        background-color: #CEA2F2;
+        width: fit-content; 
+        height: 40px; 
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        cursor: pointer;
+        border: 3px solid;
+        padding: 0.25em 0.5em;
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        transition-duration: 0.5s;
+}
+
+/*This is what happens when you hover on the sign up buttons, the shadow dissapears*/
+#Prices li button:hover{
+    box-shadow: none;
+}
+
+/*Sizes of the checkbox elements */
+.material-icons { 
+    font-size: 5px;
+
+}
+
+/*---------------------------------------------------------END of PAGE 3-------------------------------------------------*/
+
+
+/*---------------------------------------------------------START of PAGE 4-------------------------------------------------*/
+
+/* This is the WHOLE page*/ 
+#Waitlist {
+     background-color: black;
+
+}
+
+/* This is the WHOLE flexbox containing the FORM and the TITLE*/ 
+.waitlist-flexbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+
+
+}
+
+/* This is the TITLE of the page*/ 
+.title_waitlist {
+        border: solid;
+        margin: aut0;
+
+}
+
+/* This SIZE of the TITLE is of the page*/ 
+.title_waitlist h1 {
+            font-size: 50px;
+            color: white;
+
+}
+
+/* This is the FORM*/ 
+.credentials-flexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: auto;
+            width: 70vh;
+            
+
+
+
+}
+
+/* Targeting all the textareas and inputs in the FORM*/ 
+.credentials-flexbox textarea, input {
+    border: solid;
+    border-color:white;
+    padding: 10px;
+    width: 380px;
+    border-radius: 10px;
+
+}
+
+/* Textarea in FORM*/ 
+.credentials-flexbox textarea {
+    height: 300px;
+
+}
+
+
+/* This is the Send button of the FORM in WAITLIST */
+.credentials-flexbox button {
+                position: absolute;
+                margin: auto;
+                padding-left: 180px;
+                padding-right: 190px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                background-color: rgb(39, 38, 38);
+                color: white;                
+                border-radius: 5px;
+
+
+}
+
+
+/* Sizes of the letters within the form of each placeholder, name, email, questions etc.*/ 
+#firstname::placeholder {
+font-size: 15px;
+}
+
+#email::placeholder {
+font-size: 15px;
+}
+
+#questions::placeholder {
+font-size: 15px;
+}
+
+
+
+
+/*---------------------------------------------------------END of PAGE 4-------------------------------------------------*/
+
