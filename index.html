@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+    <title>FeatureBlitz</title>
+    <script src="https://kit.fontawesome.com/bac90a2aa7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Autofiil your technology">
+    <meta name="keywords" content="Autofill">
+</head>
+<body>
+    <!-- Page 1 -->
+    <section id="Home">
+        <header>
+            <div class="navbar-object">
+                <div class="left-navbar">
+                    <h3 class="logo">FeatureBlitz</h3>
+                </div>
+                <div class="navbar">
+                    <div class="center-buttons-navbar">
+                        <ul>
+                            <li><button><a href="#Home">Home</a></button></li>
+                            <li><button><a href="#About-us">About Us</a></button></li>
+                            <li><button><a href="#Prices">Prices</a></button></li>
+                            <li><button><a href="#Waitlist">Waitlist</a></button></li>
+                        </ul>
+                    </div>
+                    <div class="right-navbar"><a href="#Waitlist"><button>Sign up</button></a></div>
+                </div>
+            </div>
+        </header>
+        <div class="home-copy">
+            <div class="title"><h1>Spread your startup seamlessly</h1></div>
+            <div><h3>Use our FeatureFlow Tool</h3></div>
+            <div><button class="get-started-button-first-page"><a href="#About-us">Discover</a></button></div>
+        </div>
+    </section>
+
+    <!-- Page 2 -->
+    <section id="About-us">
+        <div class="upper-about-us-section">
+            <div class="about-us-copy">
+                <div><h1>Tired of repeatedly entering your startup credentials?</h1></div>
+                <div><h3>Get featured in a 100+ pre-marketing websites with just a few clicks</h3></div>
+                <div class="FeautureFlow-copy">
+                    <p>FeatureBlitz is an autofill tool, to get your startup into marketing game as quickly as possible. 
+                        Autofill your Startup credentials in 50+ websites, in a matter of minutes.</p>
+                </div>
+            </div>
+            <div class="lower-about-us-section-flexbox">
+                <div class="button-flexbox">
+                    <button class="get-started-button second-page"><a href="#Prices">Get started</a></button>
+                </div>
+                <div class="copy-flexbox">
+                    <div class="a-hundred-plus-flexbox">
+                        <h1>100+</h1>
+                    </div>
+                    <div class="copy-autofill-block">
+                        <h3>Why waste hours filling in your credentials simply to get featured on a few websites when you have the option to fill in all your credentials once and get featured on 100+ websites?
+                             FeatureBlitz will bundle the costs for auto-filling and featuring together so that you only have to pay once! Most importantly, if you decide to use our FeatureFlow, you will get up to 20% off your total featuring costs. </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 3 -->
+    <section id="Prices">
+        <div class="pricing-flexbox">
+            <div class="free-range">
+                <ul>
+                    <li><span class="uppercase">$0</span> <span class="lowercase">Free-Trial</span></li>
+                    <div class="free-elements-flexbox">
+                        <ul>
+                            <li><i class="fa fa-check-circle" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-check-circle" aria-hidden="true"></i></li>
+                        </ul>
+                        <ul>
+                            <li><h4>Autofill for 20 websites</h4></li>
+                            <li><h4>Free of charge</h4></li>
+                        </ul>
+                    </div>
+                    <li><a href="#Waitlist"><button>Sign up</button></a></li>
+                </ul>
+            </div>
+            <div class="medium-range">
+                <ul>
+                    <li><span class="uppercase">$10</span> <span class="lowercase">One-Time</span></li>
+                    <div class="paid-elements-flexbox">
+                        <ul>
+                            <li><i class="fa fa-check-circle" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-check-circle" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-check-circle" aria-hidden="true"></i></li>
+                        </ul>
+                        <ul>
+                            <li><h4>Autofill for 50+ Websites</h4></li>
+                            <li><h4>Get 20% off for featuring your Startup</h4></li>
+                            <li><h4>AI suggestions for your website</h4></li>
+                        </ul>
+                    </div>
+                    <li><a href="premium.html"><button>Coming soon</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 4 -->
+    <section id="Waitlist">
+        <div class="waitlist-flexbox">
+            <div class="title_waitlist">
+                <h1>Join Our Waitlist</h1>
+            </div>
+            <div class="credentials-flexbox">
+                <form action="index.php" method="post">
+                    <label for="firstname">Firstname</label><br>
+                    <input required type="text" id="firstname" name="firstname" placeholder="Name"><br><br>
+                    <label for="email">Email</label><br>
+                    <input required type="email" id="email" name="email" placeholder="email"><br><br>
+                    <label for="questions">Questions</label><br>
+                    <textarea id="questions" name="questions" placeholder="Questions"></textarea><br>
+                    <button onclick= "Click_Button()" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="featureflow.js"></script>
+</body>
+</html>
